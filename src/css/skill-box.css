@@ -9,15 +9,24 @@
     margin: 5px;
 }
 
-.skill-box .fa.skill-favorite {
+
+.skill-box .skill-favorite,
+.skill-box .skill-inprogress {
     position: absolute;
-    color: #f1c40f;
     font-size: 20px;
     top: calc(50% - 10px);
     left: -20px;
+    cursor:pointer;
+}
+.skill-box .skill-favorite {
+    color: #f1c40f;
+}
+.skill-box .skill-inprogress {
+    color: #f1750f;
 }
 
-.list li:nth-child(even) .skill-box .fa.skill-favorite {
+.list li:nth-child(even) .skill-box .skill-favorite ,
+.list li:nth-child(even) .skill-box .skill-inprogress {
     left: initial;
     right: -20px;
 }
@@ -36,6 +45,10 @@
     color: white;
     font-size: 12px;
     line-height: 20px;
+}
+
+.inprogress{
+    background-color:#18ba9a78;
 }
 @media screen and (max-width: 500px){
     .skill-box {

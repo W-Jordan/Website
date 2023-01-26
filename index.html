@@ -1,147 +1,203 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Développeur fullstack en recherche d'emploi - John Doe</title>
-        <meta charset="utf-8"/>
-        <meta name="author" content="john doe"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta name="description" content="Hello, je suis John Doe, développeur fullstack spécialisé React/Tailwind, actuellement en poste chez Blablacar dans la ville de Paris, France."/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Développeur fullstack en recherche d'emploi - John Doe"/>
-        <meta property="og:image" content="https://nicolasbrondin.github.io/john-doe/src/img/open-graph.jpg"/>
-        <meta property="og:description" content="Hello, je suis John Doe, développeur fullstack spécialisé React/Tailwind, actuellement en poste chez Blablacar dans la ville de Paris, France."/>
-        <meta name="twitter:title" content="Développeur fullstack en recherche d'emploi - John Doe"/>
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:image" content="https://nicolasbrondin.github.io/john-doe/src/img/open-graph.jpg"/>
-        <meta name="twitter:description" content="Hello, je suis John Doe, développeur fullstack spécialisé React/Tailwind, actuellement en poste chez Blablacar dans la ville de Paris, France."/>
-        <link rel="stylesheet" href="https://fontlibrary.org//face/roboto-1" type="text/css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./src/css/base.css"/>
-        <link rel="stylesheet" href="./src/css/card.css"/>
-        <link rel="stylesheet" href="./src/css/thumbnail.css"/>
-        <link rel="stylesheet" href="./src/css/path.css"/>
-        <link rel="stylesheet" href="./src/css/skill-box.css"/>
-        <link rel="stylesheet" href="./src/css/list.css"/>
-        <link rel="favicon" href="./src/img/favicon.png"/>
-    </head>
-    <body>
-        <div class="page">
-            <div class="card" id="person">
-                <img id="person-picture" src=""/>
-                <img id="person-country" src="https://image.flaticon.com/icons/svg/197/197560.svg"/>
-                <section>
-                    <h1 id="person-fullname"></h1>
-                    <h2 id="person-job"></h2>
-                    <p>Hello, je suis <strong id="person-firstname"></strong>, <strong id="person-position"></strong> spécialisé(e) en <strong id="person-speciality"></strong> actuellement <strong id="person-company"></strong> dans la ville de <strong id="person-city">Nantes</strong>.</p>
-                    <div>
-                        <a class="button" target="_blank" id="person-email">M'envoyer un email</a>
-                        <span class="or"> ou </span>
-                        <a target="_blank" class="button" href="https://welovedevs.com">Voir mon CV</a>
-                    </div>
-                    <hr/>
-                </section>
-                <section>
-                    <h3>Compétences</h3>
-                    <ul class="list">
-                        <li>
-                            <div class="skill-box">
-                                <span class="skill-favorite fa fa-bolt"></span>
-                                HTML/CSS
-                                <div class="box-well">
-                                    Langage
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="skill-box">
-                                <span class="skill-favorite fa fa-bolt"></span>
-                                Javascript
-                                <div class="box-well">
-                                    Langage
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="skill-box">
-                                <span class="skill-favorite fa fa-bolt"></span>
-                                VueJS
-                                <div class="box-well">
-                                    Framework
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="skill-box">
-                                Tailwind
-                                <div class="box-well">
-                                    CSS
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="skill-box">
-                                Git
-                                <div class="box-well">
-                                    Versioning
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="skill-box">
-                                Heroku
-                                <div class="box-well">
-                                    Cloud
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <hr/>
-                </section>
-                <section>
-                    <h3>Réalisations</h3>
-                    <div class="thumbnail" >
-                        <div class="thumbnail-cover" style="background-image: url(https://source.unsplash.com/random/800*600?code)"></div>
-                        <div class="thumbnail-content">
-                            <span class="badge">Game Jam</span>
-                            <p class="thumbnail-title">Pac-Man </p>
-                            <p class="thumbnail-description">Une version de pac-man avec une surprise en plus...</p>
-                            <div class="thumbnail-footer">
-                                <a href="google.fr" target="_blank">En savoir plus</a>
-                            </div>
+
+<head>
+    <title>Développeur fullstack - Jordan Wyts</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jordan Wyts" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="Hello, je suis Jordan Wyts, développeur fullstack spécialisé PHP/JavaScript, actuellement en poste chez Consortia (Consort NT) dans la ville de Dunkerque, France." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Développeur fullstack - Jordan Wyts" />
+    <meta property="og:image" content="https://nicolasbrondin.github.io/john-doe/src/img/open-graph.jpg" />
+    <meta property="og:description"
+        content="Hello, je suis Jordan Wyts, développeur fullstack PHP/JavaScript, actuellement en poste chez Consortia (Consort NT) dans la ville de Dunkerque, France." />
+    <meta name="twitter:title" content="Développeur fullstack - Jordan Wyts" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://nicolasbrondin.github.io/john-doe/src/img/open-graph.jpg" />
+    <meta name="twitter:description"
+        content="Hello, je suis Jordan Wyts, développeur fullstack spécialisé PHP/JavaScript, actuellement en poste chez Consortia (Consort NT) dans la ville de Dunkerque, France." />
+    <script src="https://kit.fontawesome.com/ebc16e5ffd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./src/css/base.css" />
+    <link rel="stylesheet" href="./src/css/card.css" />
+    <link rel="stylesheet" href="./src/css/thumbnail.css" />
+    <link rel="stylesheet" href="./src/css/path.css" />
+    <link rel="stylesheet" href="./src/css/skill-box.css" />
+    <link rel="stylesheet" href="./src/css/list.css" />
+    <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+    <link rel="favicon" href="./src/img/favicon.ico" />
+</head>
+
+<body>
+    <div class="page">
+        <div class="card" id="person">
+            <img id="person-picture" src="./src/img/EmojiJW.jpg" alt="Emoji" />
+            <section>
+                <h1 id="person-fullname">Jordan Wyts</h1>
+                <h2 id="person-job">Développeur Full Stack</h2>
+                <p>Hello, je m'appelle Jordan Wyts, <strong>Développeur Full Stack</strong> depuis 2013. Je suis actuellement cadre au sein de <strong>Consortia</strong> pour le client <u>Dillinger
+                            France</u>.</p>
+                <p>🚀 Passionné de nouvelles technologies et de programmation, je prends plaisir à <strong>apprendre de nouvelles choses</strong>. Ma motivation et ma curiosité m’ont permis d'être rapidement opérationnel.
+                </p>
+                <p>⏩ A moyen terme, je me projette vers un poste de <strong>Chef de projet</strong> ou <strong>Tech Lead</strong>.
+                </p>
+                <p>⏭️ A long terme, mon objectif est d'évoluer vers un poste de <strong>Directeur Informatique</strong> ou d'être à mon compte :  <strong>Freelance ou création d'entreprise</strong>.
+                </p>
+                <p>📍 Secteur : <strong>Occitanie</strong> (Hybride ou télétravail)</p>
+                <p>🗓 Disponibilité : <strong>3 mois</strong></p>
+                <div>
+                    <a class="button" target="_blank" id="person-email" href="mailto:jordan.wyts@yahoo.fr">M'envoyer un
+                        email</a>
+                    <span class="or"> ou </span>
+                    <a target="_blank" class="button" href="src/img/JORDAN-DDWM.pdf">Voir mon CV</a>
+                </div>
+                <hr />
+            </section>
+            <section>
+                <h3>Skills</h3>
+                <ul class="list">
+                    <li>
+                        <div class="skill-box">
+                            <i class="skill-favorite fa fa-bolt" title="Favori"></i>
+                            HTML/CSS
+                            <div class="box-well">Langage</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-box">
+                            <i class="skill-favorite fa fa-bolt" title="Favori"></i>
+                            JavaScript
+                            <div class="box-well">Langage</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-box">
+                            <i class="skill-favorite fa fa-bolt" title="Favori"></i>
+                            JQuery
+                            <div class="box-well">Library</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-box">
+                            <i class="skill-favorite fa fa-bolt" title="Favori"></i>
+                            PHP
+                            <div class="box-well">Langage</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-box">
+                            Git
+                            <div class="box-well">Versioning</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-box">
+                            SQL
+                            <div class="box-well">Langage</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-box inprogress">
+                            <span class="skill-inprogress fa fa-regular fa-hourglass-half"
+                                title="En apprentissage"></span>
+                            NodeJS
+                            <div class="box-well">Environment</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-box inprogress">
+                            <span class="skill-inprogress fa fa-regular fa-hourglass-half"
+                                title="En apprentissage"></span>
+                            VueJS
+                            <div class="box-well">Framework</div>
+                        </div>
+                    </li>
+                </ul>
+                <hr />
+            </section>
+            <section>
+                <h3>Réalisations</h3>
+                <!-- CARS -->
+                <div class="thumbnail">
+                    <div class="thumbnail-cover"
+                        style="background-image: url(https://source.unsplash.com/random/800*600?code)"></div>
+                    <div class="thumbnail-content">
+                        <span class="badge">Game</span>
+                        <p class="thumbnail-title">Car's</p>
+                        <p class="thumbnail-description">Une version 'voiture' de Subway surfers..</p>
+                        <div class="thumbnail-footer">
+                            <a href="" target="_blank">En savoir plus</a>
                         </div>
                     </div>
-                    <div class="thumbnail" >
-                        <div class="thumbnail-cover" style="background-image: url(https://source.unsplash.com/random/800*600?shop)"></div>
-                        <div class="thumbnail-content">
-                            <span class="badge">Application</span>
-                            <p class="thumbnail-title">Shop'n Go </p>
-                            <p class="thumbnail-description">Application d'achat en ligne sécurisé from scratch</p>
-                            <div class="thumbnail-footer">
-                                <a href="google.fr" target="_blank">En savoir plus</a>
-                            </div>
+                </div>
+
+                <!-- MEMORY -->
+                <div class="thumbnail">
+                    <div class="thumbnail-cover"
+                        style="background-image: url(https://source.unsplash.com/random/800*600?shop)"></div>
+                    <div class="thumbnail-content">
+                        <span class="badge">Game</span>
+                        <p class="thumbnail-title">Memory</p>
+                        <p class="thumbnail-description">Jeux du mémory version enfantin..</p>
+                        <div class="thumbnail-footer">
+                            <a href="google.fr" target="_blank">En savoir plus</a>
                         </div>
                     </div>
-                    <hr/>
-                </section>
-                <section>
-                    <h3>Parcours</h3>
-                    <div class="path">
-                        <div class="step">
-                            <p class="step-title">Google - 2018 à 2020</p>
-                            <p>Développeur fullstack React/Go sur l'application Google Maps</p>
-                        </div>
-                        <div class="step">
-                            <p class="step-title">Stage de fin d'études - Juin 2018</p>
-                            <p>Création d'une application de mise en relation entre particuliers et professionnels</p>
-                        </div>
-                        <div class="step">
-                            <p class="step-title">Wild code school - 2018</p>
-                            <p>Dîplomé d'un titre professionnel de développeur web et web mobile</p>
+                </div>
+
+                <!-- Taquin -->
+                <div class="thumbnail">
+                    <div class="thumbnail-cover"
+                        style="background-image: url(https://source.unsplash.com/random/800*600?shop)"></div>
+                    <div class="thumbnail-content">
+                        <span class="badge">Game</span>
+                        <p class="thumbnail-title">Taquin</p>
+                        <p class="thumbnail-description">Jeux du taquin..</p>
+                        <div class="thumbnail-footer">
+                            <a href="google.fr" target="_blank">En savoir plus</a>
                         </div>
                     </div>
-                </section>
-            </div>
+                </div>
+
+                <!-- Addition -->
+                <div class="thumbnail">
+                    <div class="thumbnail-cover"
+                        style="background-image: url(https://source.unsplash.com/random/800*600?shop)"></div>
+                    <div class="thumbnail-content">
+                        <span class="badge">Game</span>
+                        <p class="thumbnail-title">Additionne !</p>
+                        <p class="thumbnail-description">Jeux d'addition..</p>
+                        <div class="thumbnail-footer">
+                            <a href="google.fr" target="_blank">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+            </section>
+            <section>
+                <h3>Parcours</h3>
+                <div class="path">
+                    <div class="step">
+                        <p class="step-title">💼 Consortia | depuis 2022</p>
+                        <p>Migration d'applications de PHP4 en PHP8</p>
+                        <p>Développement d'applications from scratch PHP8</p>
+                    </div>
+                    <div class="step">
+                        <p class="step-title">💼 SN CMTI | 2013 - 2022</p>
+                        <p>Création d'applications pour les techniciens chez EDF</p>
+                        <p>Création d'un 'ERP' (RH, Dosimétrie, Stock, Affaire, </p>
+                    </div>
+                <div class="path">
+                    <div class="step-school">
+                        <p class="step-school-title">📚 BTS IG | 2010 - 2012</p>
+                        <p>Option développeur d'application</p>
+                    </div>
+                </div>
+            </section>
         </div>
-        <script src="./src/js/main.js"></script>
-    </body>
+    </div>
+    <script src="./src/js/main.js"></script>
+</body>
+
 </html>

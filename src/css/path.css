@@ -4,12 +4,11 @@
     margin: auto;
 }
 
-.step {
+.step,.step-school {
     position: relative;
     width: 100%;
     width: calc(100% - 20px);
     margin-left: 20px;
-    background: #ecf0f1;
     margin-bottom: 20px;
     border-radius: 10px;
     border-top-left-radius: 0;
@@ -17,32 +16,45 @@
     padding: 10px;
     box-sizing: border-box;
 }
+.step,
+.step::before,
+.step::after
+{
+    background: #ecf0f1;
+}
+.step-school,
+.step-school:before,
+.step-school:after
+ {
+    background: #dfedf0;
+}
 
-.step::before {
+.step::before,
+.step-school:before {
     content: "";
     height: calc(100% + 20px);
     width: 5px;
-    background: #ecf0f1;
     position: absolute;
     top: -10px;
     left: -20px;
 }
-
+.step-school:after,
 .step::after {
     content: "";
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    background: #ecf0f1;
     position: absolute;
     top:-10px;
     left: -25px;
 }
 
-.step p {
+.step p,
+.step-school p {
     margin: 0;
 }
 
-.step .step-title {
+.step-title,
+.step-school-title {
     font-weight: 700
 }
